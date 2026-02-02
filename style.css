@@ -46,6 +46,7 @@ body {
 
 .right {
     width: 500px;
+    height: 100vh;
     background: #121212;
     display: flex;
     justify-content: center;
@@ -107,4 +108,22 @@ button:hover {
     text-align: center;
     font-size: 12px;
     color: #777;
+}
+
+.didactic-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 20px;
+    background: #1a1a1a;
+    color: #e0e0e0;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #333;
+    z-index: 9999;
+}
+
+.didactic-banner strong {
+    color: #feda75;
 }
